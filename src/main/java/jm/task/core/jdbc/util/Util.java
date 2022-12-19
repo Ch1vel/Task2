@@ -19,6 +19,7 @@ public class Util {
     private static SessionFactory sessionFactory;
 
 
+
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER_NAME, PASSWORD);
     }
